@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+	
+<style type="text/css">
+	a{
+		text-decoration: none;
+		padding: 3px;
+		color: white;
+	}
+	a:hover{
+		color: black;
+	}
+	
+	.pos{
+		background-color: #1E6FCE;
+		position: fixed;
+		overflow: hidden;
+		top: 0;
+		width: 100%;
+		z-index: 1000;
+		
+	}
+	.pos1{
+		padding-top: 15px;
+		padding-right: 5px;
+
+	}
+	.dis{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		
+}
+@media screen and (max-width: 576px) {
+    .dis {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+		}
+		.dis img{
+			height: 80px;
+			width: 80px;
+		}
+
+}
+
+	h6{
+		color: #333333;
+	}
+	.p1{
+		margin-left: 100px;
+		font-family: cursive;
+		font-weight: bold;
+		color: blue;
+	}
+	.card{
+		overflow: hidden;
+	}
+	.car{
+		background-color: pink;
+		padding: 20px;
+		padding-top: 30px;
+}
+.p1{
+	margin-top: 10px;
+	margin-bottom: 23px;
+}
+.card-img-top{
+	height: 200px;
+	object-fit: contain;
+}
+marquee{
+	padding-top: 50px;
+
+}
+li{
+	list-style: none;
+	color: white;
+
+}
+footer{
+	background-color:#808080BF;
+}
+.navbar{
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+	background-color: #1E6FCE;
+}
+.Main{
+	display: flex;
+	flex-direction: row;
+	overflow-x:scroll;
+}
+.Main::-webkit-scrollbar{
+	width: 10;
+	height: 0;
+}
+</style>
+</head>
+<body>
+<div class="row">
+	<div class="col-lg-12 col-md-12 col-sm-12" >
+	<nav  class=" navbar navbar-expand-lg navbar-dark  position-fixed ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">QuickKart</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="./index.html">About</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" href="#contact">Contact</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" href="#">Account</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Settings</a>
+        </li>
+
+       
+       
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>  
+</div>
+</div>
+<br>
+<br>
+<br>
+	<div class="container-fluid w-100">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+			<center>
+		<div class="dis mt-3">
+	<a href="./products.html#Dress"><div>	
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQatIvgOl5VVQQmm9_FZH1XSHfJZClXoSeIZA&s" height="120" width="120" class=" border border-3  border border-dark rounded-pill">
+		<h6 >Dress</h6>
+		</div></a>
+		<a href="./products.html#Mobiles"><div>
+		<img src="https://m.media-amazon.com/images/I/71kduvIxBVL.jpg" height="120" width="120" class=" border border-3 border border-dark rounded-pill">
+		<h6>Mobiles</h6>
+		</div></a>
+		<a href="./products.html#Laptops"><div>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZZbprhmd0sjLf12_KRSB9Jx2lvoO8Ih2yYw&s" height="120" width="120" class="border border-3 rounded-pill border border-dark ">
+		<h6>Laptops</h6>
+		</div></a>
+		<a href="./products.html#Cosmetics"><div>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxrxlKFPUca6SjCvF8b1DPAmtwEl8lyT_sVA&s" height="120" width="120" class=" border border-3 border border-dark rounded-pill">
+		<h6>Cosmetics</h6>
+		</div></a>	
+	    </div>
+</center>
+</div>
+</div>
+</div>
+	<!--carosuel-->
+<div class="container-fluid w-100">
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators  ">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"  class=" bg-dark" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"  class=" bg-dark"aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2000">
+    	<center>
+      <img src="https://m.media-amazon.com/images/G/31/img24/lenovo/nongaming/i3-1400x800._CB537161104_.gif " class="d-block w-100" alt="..."></center>
+      <div class="carousel-caption  d-md-block text-dark">
+        <h5>TOP LAPTOPS</h5>
+        <p>Starting at $24,990 only.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+    	<center>
+      <img src="https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2022/09/iqoo-phones-offer.jpg?fit=1200%2C675&ssl=1" class=" img1 d-block w-100"  alt="...">
+  </center>
+      <div class="carousel-caption d-none d-md-block text-light">
+        <h5>VIVO V14</h5>
+        <p>Flat 20% OFF.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000" >
+    	<center>
+      <img src="https://m.media-amazon.com/images/I/519N0K65VjL._AC_UF1000,1000_QL80_.jpg" class="d-block w-100"  alt="..."></center>
+      <div class="carousel-caption d-none d-md-block text-dark">
+        <h5>GLAM UP</h5>
+        <p>Combo offer Foundation+Primer</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev text-dark" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+</div>
+<!--cards -->
+<br>
+<br>
+
+<div class="container-fluid">
+	<div class="car">
+		<h3 style="padding-bottom: 10px; color:white; margin-left:20px">TRENDINGG PRODUCT!!<i class="fa-solid fa-heart"></i></h3>
+		<div class="row">
+			
+		<div class="col-lg-3  col-sm-12">
+<a href="./products.html#Laptops"><div class="card  border border-dark ">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZZbprhmd0sjLf12_KRSB9Jx2lvoO8Ih2yYw&s"  class="card-img-top" >
+					<center> <h6> LENOVA</h6></center>
+					<div class="card-header border border-dark">
+						<center><h4 class="text-dark">20% OFF</h4></center>
+					</div>
+				</div></a>
+			</div>
+			<div class="col-lg-3  col-sm-12">
+			<a href="./products.html#Dress">	<div class="card  border border-dark">
+					<img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/blazer/f/l/k/42-black-and-beige-humjoli-mens-wear-original-imah2skbxuayrgx7.jpeg?q=90&crop=false" class="card-img-top" >
+					<center> <h6> OTTO</h6></center>
+					<div class="card-header border border-dark">
+						<center><h4 class="text-dark">FLAT 50% OFF</h4></center>
+					</div>
+				</div></a>
+			</div>
+			<div class="col-lg-3  col-sm-12">
+			<a href="./products.html#Cosmetics"><div class="card  border border-dark">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxrxlKFPUca6SjCvF8b1DPAmtwEl8lyT_sVA&s" class="card-img-top">
+					<center> <h6>LAKME</h6></center>
+					<div class="card-header border border-dark">
+						<center><h4 class="text-dark">30% OFF</h4></center>
+					</div>
+				</div></a>
+			</div>
+			<div class="col-lg-3  col-sm-12">
+			<a href="./products.html#Mobiles"><div class="card  border border-dark">
+					<img src="https://m.media-amazon.com/images/I/71kduvIxBVL.jpg" class="card-img-top">
+					<center> <h6> VIVO 14C</h6></center>
+					<div class="card-header border border-dark">
+						<center><h4 class="text-dark">10% OFF</h4></center>
+					</div>
+				</div></a>
+			</div>
+				
+			<!--cards
+			<div class="col-lg-3  col-sm-12">
+<a href="./products.html#Laptops"><div class="card  border border-dark ">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZZbprhmd0sjLf12_KRSB9Jx2lvoO8Ih2yYw&s"  class="card-img-top" >
+					<center> <h6> LENOVA</h6></center>
+					<div class="card-header border border-dark">
+						<center><h4 class="text-dark">20% OFF</h4></center>
+					</div>
+				</div></a>
+			</div> -->
+			
+
+		</div>
+	</div>
+</div>
+<h1 style="padding-top: 30px; padding-left: 60px">Top Brands!!</h1>
+<marquee scrollamount="30">
+	<img src="https://static.vecteezy.com/system/resources/previews/020/927/533/non_2x/lenovo-logo-brand-phone-symbol-name-blue-design-china-mobile-illustration-free-vector.jpg" height="200" width="200" class="rounded-pill border border-dark p-10" >
+	<span style="padding-left:150px;"><img src="https://media.licdn.com/dms/image/v2/D560BAQFGkjCTm4xk7Q/company-logo_200_200/company-logo_200_200/0/1719256876155/otto_clothing_logo?e=2147483647&v=beta&t=fjFwfK5Y0euJA-dUBLBo_9JcojZCHgeqdyB-5iYHcT0" height="200" width="200" class="rounded-pill border border-dark" ></span>
+	<span style="padding-left:150px;"><img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3xUyxMtlPL1Hhsc1fW0GJgfOsU9Au0cSviQ&s" height="200" width="200" class="rounded-pill border border-dark" ></span>
+	<span style="padding-left:150px;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWUv_BNYwQ2Cb3u9at8LZ2JmRaHOJeXlwW7w&s" height="200" width="200" class="rounded-pill border border-dark" > </span>
+	<span style="padding-left:150px;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6RACuKQ8sJxNXI17b6tLyd4vmhraPT5OYmw&s" height="200" width="200" class="rounded-pill border border-dark" ></span>
+	<span style="padding-left:150px;"><img src="https://blog.logomaster.ai/hs-fs/hubfs/samsung-logo-1993.jpg?width=672&height=454&name=samsung-logo-1993.jpg" height="200" width="200" class="rounded-pill border border-dark" ></span>
+	<span style="padding-left:150px;">	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRna2FbwVAYN_yBHf2Gdtad3fBfO22iy235kA&s" height="200" width="200" class="rounded-pill border border-dark" ></span>
+	<span style="padding-left:150px;"><img src="https://thumbs.dreamstime.com/b/nike-logo-white-background-editorial-illustration-company-168841205.jpg" height="200" width="200" class="rounded-pill border border-dark" ></span>
+	<span style="padding-left:150px;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTDY6kUaLj6FQhuBprxkNhhERufzb7D0mPfA&s" height="200" width="200" class="rounded-pill border border-dark" ></span>
+	<span style="padding-left:150px;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1H_DuBu7daHseQafAQ2R6Uif7xFgulPy1K62HdyRrsQdHX-evwt5eut9c7Xf65lRbP2Y&usqp=CAU" height="200" width="200" class="rounded-pill border border-dark" ></span>
+	<span style="padding-left:150px;"><img src="https://cleanclothes.org/image-repository/livingwage-living-wage-images-h-m-logo/@@images/image.jpeg" height="200" width="200" class="rounded-pill border border-dark" ></span>
+	<span style="padding-left:150px;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkj7pEe2KkuHittje6nvwqnW_tbZ9qw-dhoA&s" height="200" width="200" class="rounded-pill border border-dark" ></span>
+		<span style="padding-left:150px;"><img src="https://zerocreativity0.wordpress.com/wp-content/uploads/2017/01/himalaya-logo.jpg" height="200" width="200" class="rounded-pill border border-dark" ></span>
+		<span style="padding-left:150px;"><img src="https://seeklogo.com/images/V/vivo-logo-9FBC12B0F9-seeklogo.com.png" height="200" width="200" class="rounded-pill border border-dark" ></span>
+
+
+</marquee>
+<br>
+<br>
+<br>
+
+
+
+<footer id="contact">
+	<center>
+		<p><h1 class="text-light">QUICKKART</h1>
+			<li>The products have the 1 week return policy</li>
+			<li>If there is any damage it could be exchange</li>
+			<li>We promise that the product will be reach within one week</li>
+			<li> contact:7010809155</li>
+			<li> Email:"Quickkart09@email.com"</li></p>
+	</center>
+	</footer>
+</body>
+</html>
+
